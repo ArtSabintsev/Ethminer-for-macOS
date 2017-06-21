@@ -46,7 +46,7 @@ set(D_OLYMPIC OFF)
 set(D_MINER ON)
 set(D_ETHSTRATUM OFF)
 
-set(brew_install brew install libjson-rpc-cpp leveldb libmicrohttpd cryptopp qt5)
+set(brew_install brew install libjson-rpc-cpp leveldb libmicrohttpd cryptopp qt5 boost)
 execute_process(COMMAND ${brew_install})
 
 if (BUNDLE STREQUAL "minimal")
