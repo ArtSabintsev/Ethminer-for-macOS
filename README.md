@@ -1,7 +1,7 @@
 # Ethminer for macOS
 
 ## Meta
-- Current Version: **1.0.1**
+- Current Version: **1.0.2**
 - Release Date: **June 20, 2017**
 - Also known as _cpp-ethereum_ and _c++-ethereum_.
 - Ethereum Donations:
