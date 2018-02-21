@@ -38,7 +38,7 @@ mkdir build; cd build
   - This will also install all the homebrew dependencies that you'll need.
 ```
 // RUN THIS IF YOU HAVE AN NVIDIA CARD AND WANT PROPRIETARY DRIVERS.
-cmake -DBUNDLE=cudaminer -DETHSTRATUM=1 ..
+cmake -DBUNDLE=cudaminer -DETHSTRATUM=1 -DETHASHCUDA=ON ..
 
 // RUN THIS IF YOU HAVE ANY CARD (INCL. NVIDIA) AND WANT THE OPEN SOURCE 'OpenCL' DRIVERS.
 cmake -DBUNDLE=miner -DETHSTRATUM=1 ..
