@@ -76,7 +76,7 @@ Remove the following flag: `-gencode arch=compute_20,code=sm_20`
 Run the `make` command again.
 
 ## Support
-While I am a full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. |I will do my best to support the fork. 
+While I am a full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. I will do my best to support the fork. 
 
 ## Maintained By
 [Arthur Ariel Sabintsev](http://www.sabintsev.com)
