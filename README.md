@@ -59,6 +59,15 @@ Once installation succedes, go to the `ethminer` directory (from the build direc
 
 ## Issues
 ```
+"Undefined symbols for architecture x86_64" when attempting to run make -j8
+```
+This is a common issue on Macs runing Catalina 10.15 or above. Resolve by running these commands:
+1. brew remove boost
+2. brew upgrade cmake
+3. brew install boost
+See Issue #24 for more details
+
+```
 nvcc fatal : The version ('90000') of the host compiler ('Apple clang') is not supported
 ```
 Ensure you have installed Xcode CLT 7.3 and switched using the xcode-select command as outline above.
